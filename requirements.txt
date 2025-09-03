@@ -1,10 +1,15 @@
-# base científica
 numpy==1.26.4
 pandas==2.2.2
 
-# (opcionais, caso use)
+# Se usar servidor web:
+# gunicorn==22.0.0
+
+# Se for DASH:
+# dash==2.17.1
+
+# Se for STREAMLIT:
+# streamlit==1.36.0
+
+# Extras comuns:
 # opencv-python-headless==4.10.0.84
 # psycopg2-binary==2.9.9
-# gunicorn==22.0.0   # se for app web WSGI
-# dash==2.17.1       # se usar Dash
-# streamlit==1.36.0  # se usar Streamlit (não combine Dash e Streamlit ao mesmo tempo)
