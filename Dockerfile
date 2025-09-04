@@ -6,5 +6,6 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 COPY . .
-CMD ["python", "app.py"]  # ajuste para Streamlit/Dash conforme seu caso
+CMD ["python", "app.py"]  # ou ajuste para streamlit/dash
+
 
